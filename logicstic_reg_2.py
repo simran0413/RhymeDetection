@@ -22,7 +22,6 @@ class logistic:
         # self.dictionary_true, self.dictionary_false = self.build_dict('data/clean_dict_true_1.json', 'data/clean_dict_false_1.json')
         self.dictionary_true, self.dictionary_false = self.build_dict('data/med_true.json', 'data/med_false.json')
         # self.dictionary_true, self.dictionary_false = self.build_small_dict('data/clean_dict_true_1.json', 'data/clean_dict_false_1.json')
-        # print(self.arpabet['musketeer'])
         self.ipa_us, self.ipa_uk = self.read_ipa_files()
 
     
