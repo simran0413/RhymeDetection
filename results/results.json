@@ -1,0 +1,1147 @@
+{
+    "results": [
+        {
+            "type": "EXAMPLE",
+            "log_weights": [
+                0.5
+            ],
+            "accuracy": 0.9,
+            "predicted_results": [
+                "True",
+                "False"
+            ],
+            "actual_results": [
+                "True",
+                "False"
+            ],
+            "predict_proba": [
+                [
+                    0.9,
+                    0.1
+                ],
+                [
+                    0.1,
+                    0.9
+                ]
+            ]
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.9575809038034404,
+                    -2.3897498992473354,
+                    4.703253351636287,
+                    0.7989532397171506,
+                    0.0
+                ]
+            ],
+            "training_score": 0.889811320754717,
+            "testing_score": 0.9044265593561368,
+            "confusion_matrix": [
+                442,
+                38,
+                57,
+                457
+            ],
+            "accuracy_score": 0.9044265593561368,
+            "log_loss": 0.2619088048394187
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.851813582216873,
+                    -2.6687369055182866,
+                    5.003481093720683,
+                    0.6230265237968803,
+                    0.0
+                ]
+            ],
+            "training_score": 0.8915723270440251,
+            "testing_score": 0.8933601609657947,
+            "confusion_matrix": [
+                454,
+                43,
+                63,
+                434
+            ],
+            "accuracy_score": 0.8933601609657947,
+            "log_loss": 0.29166663575972873
+        },
+        {
+            "type": "all metrics except weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.7854626192916647,
+                    -2.514541771841546,
+                    4.774855832550449,
+                    1.1933988525308528
+                ]
+            ],
+            "training_score": 0.8913207547169811,
+            "testing_score": 0.89738430583501,
+            "confusion_matrix": [
+                461,
+                38,
+                64,
+                431
+            ],
+            "accuracy_score": 0.89738430583501,
+            "log_loss": 0.2652346925073046
+        },
+        {
+            "type": "all metrics except lcs, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.191292898925618,
+                    -2.51978199669565,
+                    5.2066460234390926,
+                    0.1552045157701374
+                ]
+            ],
+            "training_score": 0.8971069182389937,
+            "testing_score": 0.8792756539235412,
+            "confusion_matrix": [
+                447,
+                56,
+                64,
+                427
+            ],
+            "accuracy_score": 0.8792756539235412,
+            "log_loss": 0.296924043202515
+        },
+        {
+            "type": "all metrics except jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.6895241835946293,
+                    -3.2822153449330105,
+                    2.95433332215828,
+                    1.1571344410356148
+                ]
+            ],
+            "training_score": 0.8855345911949686,
+            "testing_score": 0.8953722334004024,
+            "confusion_matrix": [
+                451,
+                42,
+                62,
+                439
+            ],
+            "accuracy_score": 0.8953722334004024,
+            "log_loss": 0.30143052834228373
+        },
+        {
+            "type": "all metrics except hamming, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -3.1734408003814556,
+                    5.135716800703206,
+                    1.6650040544628917,
+                    0.03959947175460649
+                ]
+            ],
+            "training_score": 0.8918238993710692,
+            "testing_score": 0.8853118712273642,
+            "confusion_matrix": [
+                472,
+                52,
+                62,
+                408
+            ],
+            "accuracy_score": 0.8853118712273642,
+            "log_loss": 0.29630071507476374
+        },
+        {
+            "type": "all metrics except edit, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -3.3824704306756614,
+                    4.528345222441357,
+                    1.636708906408982,
+                    0.44756591590761396
+                ]
+            ],
+            "training_score": 0.8908176100628931,
+            "testing_score": 0.9024144869215291,
+            "confusion_matrix": [
+                466,
+                42,
+                55,
+                431
+            ],
+            "accuracy_score": 0.9024144869215291,
+            "log_loss": 0.27944539274836133
+        },
+        {
+            "type": "all metrics except edit, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -3.696116774603111,
+                    4.925759103346625,
+                    1.5450607375380672,
+                    0.0
+                ]
+            ],
+            "training_score": 0.8910691823899372,
+            "testing_score": 0.8963782696177063,
+            "confusion_matrix": [
+                451,
+                45,
+                58,
+                440
+            ],
+            "accuracy_score": 0.8963782696177063,
+            "log_loss": 0.28007736714496906
+        },
+        {
+            "type": "all metrics except edit and hamming, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    7.250667990150024,
+                    2.5305614116001203,
+                    0.06808912735431091
+                ]
+            ],
+            "training_score": 0.890314465408805,
+            "testing_score": 0.89738430583501,
+            "confusion_matrix": [
+                433,
+                40,
+                62,
+                459
+            ],
+            "accuracy_score": 0.89738430583501,
+            "log_loss": 0.2991946192542757
+        },
+        {
+            "type": "all metrics except edit, hamming and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    6.208732461480137,
+                    3.403140785388782
+                ]
+            ],
+            "training_score": 0.8540880503144654,
+            "testing_score": 0.8410462776659959,
+            "confusion_matrix": [
+                452,
+                48,
+                110,
+                384
+            ],
+            "accuracy_score": 0.8410462776659959,
+            "log_loss": 0.36662779146425495
+        },
+        {
+            "type": "all metrics except edit, hamming and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    6.380948022565093,
+                    3.162763525545625
+                ]
+            ],
+            "training_score": 0.8649056603773585,
+            "testing_score": 0.858148893360161,
+            "confusion_matrix": [
+                427,
+                53,
+                88,
+                426
+            ],
+            "accuracy_score": 0.858148893360161,
+            "log_loss": 0.3639966786509686
+        },
+        {
+            "type": "all metrics except hamming and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -5.257765573360297,
+                    3.5404577516090874,
+                    0.8663177898265259
+                ]
+            ],
+            "training_score": 0.8782389937106918,
+            "testing_score": 0.8772635814889336,
+            "confusion_matrix": [
+                486,
+                40,
+                82,
+                386
+            ],
+            "accuracy_score": 0.8772635814889336,
+            "log_loss": 0.3135265850261853
+        },
+        {
+            "type": "all metrics except hamming and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -5.133695549607851,
+                    3.1624523207737227,
+                    1.4480829420486419
+                ]
+            ],
+            "training_score": 0.8794968553459119,
+            "testing_score": 0.8873239436619719,
+            "confusion_matrix": [
+                475,
+                36,
+                76,
+                407
+            ],
+            "accuracy_score": 0.8873239436619719,
+            "log_loss": 0.31140960915209204
+        },
+        {
+            "type": "all metrics except edit and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -5.5328943068303005,
+                    3.4554673838659893,
+                    0.8636424582013291
+                ]
+            ],
+            "training_score": 0.8867924528301887,
+            "testing_score": 0.8873239436619719,
+            "confusion_matrix": [
+                462,
+                35,
+                77,
+                420
+            ],
+            "accuracy_score": 0.8873239436619719,
+            "log_loss": 0.3012041930486422
+        },
+        {
+            "type": "all metrics except edit and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -5.446737666329153,
+                    3.5350285318282073,
+                    0.8738579439699822
+                ]
+            ],
+            "training_score": 0.8933333333333333,
+            "testing_score": 0.8782696177062375,
+            "confusion_matrix": [
+                475,
+                37,
+                84,
+                398
+            ],
+            "accuracy_score": 0.8782696177062375,
+            "log_loss": 0.3131475666532004
+        },
+        {
+            "type": "all metrics except edit and jaccard, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -5.245185447677434,
+                    3.9793012350623505,
+                    0.7665807477831549
+                ]
+            ],
+            "training_score": 0.8913207547169811,
+            "testing_score": 0.8853118712273642,
+            "confusion_matrix": [
+                471,
+                35,
+                79,
+                409
+            ],
+            "accuracy_score": 0.8853118712273642,
+            "log_loss": 0.3098840211057096
+        },
+        {
+            "type": "all metrics except lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.3048706680124256,
+                    -2.619056306290395,
+                    5.549779984647375
+                ]
+            ],
+            "training_score": 0.8910691823899372,
+            "testing_score": 0.8993963782696177,
+            "confusion_matrix": [
+                460,
+                44,
+                56,
+                434
+            ],
+            "accuracy_score": 0.8993963782696177,
+            "log_loss": 0.26781824929620496
+        },
+        {
+            "type": "all metrics except lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.410098459778874,
+                    -2.6518989408924027,
+                    5.542109385905724
+                ]
+            ],
+            "training_score": 0.8950943396226415,
+            "testing_score": 0.8873239436619719,
+            "confusion_matrix": [
+                448,
+                46,
+                66,
+                434
+            ],
+            "accuracy_score": 0.8873239436619719,
+            "log_loss": 0.2886113155479604
+        },
+        {
+            "type": "all metrics except lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.3282403471006696,
+                    -2.639952818142769,
+                    5.472508646263782
+                ]
+            ],
+            "training_score": 0.8945911949685534,
+            "testing_score": 0.8893360160965795,
+            "confusion_matrix": [
+                471,
+                36,
+                74,
+                413
+            ],
+            "accuracy_score": 0.8893360160965795,
+            "log_loss": 0.27875909749496564
+        },
+        {
+            "type": "all metrics except jaccrd, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -3.906018507915071,
+                    -5.249563477248665
+                ]
+            ],
+            "training_score": 0.8877987421383647,
+            "testing_score": 0.9144869215291751,
+            "confusion_matrix": [
+                471,
+                32,
+                53,
+                438
+            ],
+            "accuracy_score": 0.9144869215291751,
+            "log_loss": 0.27287488665479076
+        },
+        {
+            "type": "all metrics except jaccrd, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.630754377201394,
+                    -5.113110111212181
+                ]
+            ],
+            "training_score": 0.8935849056603774,
+            "testing_score": 0.8913480885311871,
+            "confusion_matrix": [
+                448,
+                43,
+                65,
+                438
+            ],
+            "accuracy_score": 0.8913480885311871,
+            "log_loss": 0.2845110158219464
+        },
+        {
+            "type": "all metrics except jaccrd, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.352388057343005,
+                    -5.0101287882689975
+                ]
+            ],
+            "training_score": 0.889811320754717,
+            "testing_score": 0.9004024144869215,
+            "confusion_matrix": [
+                473,
+                47,
+                52,
+                422
+            ],
+            "accuracy_score": 0.9004024144869215,
+            "log_loss": 0.2763419309724594
+        },
+        {
+            "type": "all metrics except hamming, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.151830014431731,
+                    6.236250683030537
+                ]
+            ],
+            "training_score": 0.8857861635220126,
+            "testing_score": 0.9154929577464789,
+            "confusion_matrix": [
+                480,
+                41,
+                43,
+                430
+            ],
+            "accuracy_score": 0.9154929577464789,
+            "log_loss": 0.24897496176309747
+        },
+        {
+            "type": "all metrics except hamming, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.136992201276487,
+                    6.271589288651508
+                ]
+            ],
+            "training_score": 0.890314465408805,
+            "testing_score": 0.89738430583501,
+            "confusion_matrix": [
+                455,
+                38,
+                64,
+                437
+            ],
+            "accuracy_score": 0.89738430583501,
+            "log_loss": 0.27728363004974393
+        },
+        {
+            "type": "all metrics except hamming, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.063506652269654,
+                    6.180808775715446
+                ]
+            ],
+            "training_score": 0.8877987421383647,
+            "testing_score": 0.9074446680080482,
+            "confusion_matrix": [
+                451,
+                33,
+                59,
+                451
+            ],
+            "accuracy_score": 0.9074446680080482,
+            "log_loss": 0.2696429332287884
+        },
+        {
+            "type": "all metrics except edit, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.16971842129462,
+                    6.176779061760059
+                ]
+            ],
+            "training_score": 0.8933333333333333,
+            "testing_score": 0.8883299798792756,
+            "confusion_matrix": [
+                455,
+                46,
+                65,
+                428
+            ],
+            "accuracy_score": 0.8883299798792756,
+            "log_loss": 0.27220710062444
+        },
+        {
+            "type": "all metrics except edit, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.131293277462783,
+                    6.094440563080318
+                ]
+            ],
+            "training_score": 0.8923270440251573,
+            "testing_score": 0.8883299798792756,
+            "confusion_matrix": [
+                472,
+                43,
+                68,
+                411
+            ],
+            "accuracy_score": 0.8883299798792756,
+            "log_loss": 0.264569253227449
+        },
+        {
+            "type": "all metrics except edit, lcs and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.184345069452071,
+                    6.096322042129558
+                ]
+            ],
+            "training_score": 0.8913207547169811,
+            "testing_score": 0.8963782696177063,
+            "confusion_matrix": [
+                474,
+                43,
+                60,
+                417
+            ],
+            "accuracy_score": 0.8963782696177063,
+            "log_loss": 0.27106588133103304
+        },
+        {
+            "type": "all metrics except edit and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -3.730278414947773,
+                    5.153237360982074,
+                    1.543823757909796
+                ]
+            ],
+            "training_score": 0.8905660377358491,
+            "testing_score": 0.8983903420523138,
+            "confusion_matrix": [
+                468,
+                38,
+                63,
+                425
+            ],
+            "accuracy_score": 0.8983903420523138,
+            "log_loss": 0.28330708014228595
+        },
+        {
+            "type": "all metrics except edit and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -4.020725261525824,
+                    5.532364079863168,
+                    0.734192275301734
+                ]
+            ],
+            "training_score": 0.8913207547169811,
+            "testing_score": 0.892354124748491,
+            "confusion_matrix": [
+                409,
+                42,
+                65,
+                478
+            ],
+            "accuracy_score": 0.892354124748491,
+            "log_loss": 0.2770966129951074
+        },
+        {
+            "type": "all metrics except jaccard and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.8904905292200924,
+                    -3.6730557743698786,
+                    3.359657836824289
+                ]
+            ],
+            "training_score": 0.8739622641509434,
+            "testing_score": 0.8802816901408451,
+            "confusion_matrix": [
+                481,
+                27,
+                92,
+                394
+            ],
+            "accuracy_score": 0.8802816901408451,
+            "log_loss": 0.2950438211961777
+        },
+        {
+            "type": "all metrics except jaccard and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.7126130564123563,
+                    -4.177669899961134,
+                    3.1046751026875747
+                ]
+            ],
+            "training_score": 0.8875471698113208,
+            "testing_score": 0.89738430583501,
+            "confusion_matrix": [
+                475,
+                54,
+                48,
+                417
+            ],
+            "accuracy_score": 0.89738430583501,
+            "log_loss": 0.30112453875525425
+        },
+        {
+            "type": "all metrics except jaccard and weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.694250394623451,
+                    -4.3969710312689205,
+                    2.777149140836605
+                ]
+            ],
+            "training_score": 0.8910691823899372,
+            "testing_score": 0.8853118712273642,
+            "confusion_matrix": [
+                451,
+                43,
+                71,
+                429
+            ],
+            "accuracy_score": 0.8853118712273642,
+            "log_loss": 0.29573256842288415
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.8551044086470239,
+                    -2.424395071038844,
+                    4.5357170359863135,
+                    1.5065986620727263,
+                    0.0
+                ]
+            ],
+            "training_score": 0.8976100628930818,
+            "testing_score": 0.8732394366197183,
+            "confusion_matrix": [
+                442,
+                59,
+                67,
+                426
+            ],
+            "accuracy_score": 0.8732394366197183,
+            "log_loss": 0.29709830144273025
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.977928413850645,
+                    -2.3796268668869485,
+                    4.661156960254407,
+                    0.7949259823723903,
+                    0.008618038501080288
+                ]
+            ],
+            "training_score": 0.8915723270440251,
+            "testing_score": 0.89738430583501,
+            "confusion_matrix": [
+                434,
+                40,
+                62,
+                458
+            ],
+            "accuracy_score": 0.89738430583501,
+            "log_loss": 0.2717000892787108
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -2.1566842808453717,
+                    -2.380222777827886,
+                    4.785936531591706,
+                    1.0415780559839278,
+                    0.0
+                ]
+            ],
+            "training_score": 0.8908176100628931,
+            "testing_score": 0.8993963782696177,
+            "confusion_matrix": [
+                440,
+                49,
+                51,
+                454
+            ],
+            "accuracy_score": 0.8993963782696177,
+            "log_loss": 0.276388491836086
+        },
+        {
+            "type": "all metrics, l2, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.8333416182704023,
+                    -1.9280843227666735,
+                    1.935652091352576,
+                    1.3599987670541238,
+                    1.0637569919396344
+                ]
+            ],
+            "training_score": 0.8875471698113208,
+            "testing_score": 0.8832997987927566,
+            "confusion_matrix": [
+                464,
+                31,
+                85,
+                414
+            ],
+            "accuracy_score": 0.8832997987927566,
+            "log_loss": 0.3235034559204605
+        },
+        {
+            "type": "all metrics, l1, full phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -0.38780401626717165,
+                    -0.8607178280709237,
+                    2.5502552021068814,
+                    0.0,
+                    0.03663225040098131
+                ]
+            ],
+            "training_score": 0.6686792452830189,
+            "testing_score": 0.6790744466800804,
+            "confusion_matrix": [
+                364,
+                140,
+                179,
+                311
+            ],
+            "accuracy_score": 0.6790744466800804,
+            "log_loss": 0.5776060362947842
+        },
+        {
+            "type": "all metrics, l1, full phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -0.3590582409892773,
+                    -0.7681117860354791,
+                    2.1962696163784665,
+                    0.0,
+                    0.7494212430030694
+                ]
+            ],
+            "training_score": 0.6689308176100629,
+            "testing_score": 0.6971830985915493,
+            "confusion_matrix": [
+                343,
+                136,
+                165,
+                350
+            ],
+            "accuracy_score": 0.6971830985915493,
+            "log_loss": 0.5818466035940855
+        },
+        {
+            "type": "all metrics except lcs and weighed, l1, full phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -0.40447849161837995,
+                    -0.8429099852567633,
+                    2.60266846940486
+                ]
+            ],
+            "training_score": 0.6714465408805032,
+            "testing_score": 0.6901408450704225,
+            "confusion_matrix": [
+                347,
+                156,
+                152,
+                339
+            ],
+            "accuracy_score": 0.6901408450704225,
+            "log_loss": 0.5790553233177116
+        },
+        {
+            "type": "all metrics except lcs and weighed, l1, full phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -0.22732747507895631,
+                    -1.1798651590419797,
+                    2.6172403527720336
+                ]
+            ],
+            "training_score": 0.6656603773584906,
+            "testing_score": 0.6549295774647887,
+            "confusion_matrix": [
+                353,
+                143,
+                200,
+                298
+            ],
+            "accuracy_score": 0.6549295774647887,
+            "log_loss": 0.5897944863504798
+        },
+        {
+            "type": "all metrics except jaccard, lcs and weighed, l1, full phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": false,
+            "log_weights": [
+                [
+                    -1.4067342040857596,
+                    -2.281403319507488
+                ]
+            ],
+            "training_score": 0.6420125786163522,
+            "testing_score": 0.6297786720321932,
+            "confusion_matrix": [
+                349,
+                123,
+                245,
+                277
+            ],
+            "accuracy_score": 0.6297786720321932,
+            "log_loss": 0.6053626419968007
+        },
+        {
+            "type": "all metrics, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": true,
+            "log_weights": [
+                [
+                    [
+                        -1.6329774337983696,
+                        -2.2392450529231627,
+                        4.013820078252733,
+                        1.5151511432726528,
+                        0.7637457664185217
+                    ]
+                ],
+                [
+                    [
+                        -1.8057963011108635,
+                        -2.6202588855782394,
+                        4.908217738801073,
+                        0.8448346785634521,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        -1.8735019367676014,
+                        -2.433592025507471,
+                        4.600243486463058,
+                        0.9727410651774336,
+                        0.19622629512385675
+                    ]
+                ],
+                [
+                    [
+                        -1.802565013609454,
+                        -2.324988970324098,
+                        4.169245197701159,
+                        1.3679604390716988,
+                        0.40175969832954594
+                    ]
+                ],
+                [
+                    [
+                        -1.9568846070682016,
+                        -2.3890871050502747,
+                        4.325428724188237,
+                        1.2404017185533622,
+                        0.2854423022467562
+                    ]
+                ],
+                [
+                    [
+                        -1.8706510721620073,
+                        -2.2470990978077134,
+                        4.2184258825176215,
+                        1.6740698991992027,
+                        0.15117968420232888
+                    ]
+                ],
+                [
+                    [
+                        -1.8405391884344362,
+                        -2.430046974702297,
+                        4.385460087360123,
+                        1.004478293865928,
+                        0.3346593305027433
+                    ]
+                ],
+                [
+                    [
+                        -1.7641582348398976,
+                        -2.525122152029438,
+                        4.646190022112607,
+                        1.0747692936926543,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        -2.03226249005065,
+                        -2.2372766837472247,
+                        4.4762414314493135,
+                        1.092407174599685,
+                        0.10673148967669363
+                    ]
+                ],
+                [
+                    [
+                        -1.8618863512070427,
+                        -2.4539949580335447,
+                        4.566057321436001,
+                        1.310377540600577,
+                        0.0
+                    ]
+                ]
+            ],
+            "training_score": [
+                0.9006289308176101,
+                0.8930817610062893,
+                0.8943396226415095,
+                0.8981132075471698,
+                0.8880503144654088,
+                0.8867924528301887,
+                0.8880503144654088,
+                0.8968553459119497,
+                0.9044025157232705,
+                0.8943396226415095
+            ],
+            "test_score": 0.8983903420523138,
+            "mean_training": 0.8944654088050317,
+            "std_val": 0.005466997185434145,
+            "confusion_matrix": [
+                467,
+                42,
+                59,
+                426
+            ],
+            "log_loss": 0.2746126488108865
+        },
+        {
+            "type": "all metrics except weighed, l1, half phoneme, using sgd, alpha= 0.01, shuffle=True, random_state= 42, 10-fold",
+            "cross_val": true,
+            "log_weights": [
+                [
+                    [
+                        -1.7808129427869193,
+                        -2.6086864510399614,
+                        4.854089460847934,
+                        1.0987374080660655
+                    ]
+                ],
+                [
+                    [
+                        -2.1160800407254623,
+                        -2.427830340734107,
+                        4.76902550437802,
+                        1.1772571691951277
+                    ]
+                ],
+                [
+                    [
+                        -2.117795535446949,
+                        -2.5662093400062407,
+                        5.22875793558423,
+                        0.3710842652756354
+                    ]
+                ],
+                [
+                    [
+                        -2.081125863813576,
+                        -2.5737716600350584,
+                        4.848558820949617,
+                        0.9859514358822422
+                    ]
+                ],
+                [
+                    [
+                        -1.9614436077322053,
+                        -2.433688301404413,
+                        4.560358946948785,
+                        1.6988542392913337
+                    ]
+                ],
+                [
+                    [
+                        -2.2113360883625424,
+                        -2.2758184149672767,
+                        4.541822077202391,
+                        1.674727400733734
+                    ]
+                ],
+                [
+                    [
+                        -1.915308038297347,
+                        -2.4338498867201825,
+                        4.701837952867721,
+                        1.4338042497226633
+                    ]
+                ],
+                [
+                    [
+                        -1.8254825388846667,
+                        -2.467049520045037,
+                        4.657085388394886,
+                        1.6588250153384068
+                    ]
+                ],
+                [
+                    [
+                        -2.007035876252637,
+                        -2.4372142624598845,
+                        4.763383680146356,
+                        1.3578036948166095
+                    ]
+                ],
+                [
+                    [
+                        -1.944293498727442,
+                        -2.436000416355124,
+                        4.716023181342175,
+                        1.2437710095714727
+                    ]
+                ]
+            ],
+            "training_score": [
+                0.9169811320754717,
+                0.8943396226415095,
+                0.9044025157232705,
+                0.8968553459119497,
+                0.8930817610062893,
+                0.8930817610062893,
+                0.8867924528301887,
+                0.8981132075471698,
+                0.9081761006289308,
+                0.9018867924528302
+            ],
+            "test_score": 0.8822937625754527,
+            "mean_training": 0.89937106918239,
+            "std_val": 0.008305697619732917,
+            "confusion_matrix": [
+                437,
+                54,
+                63,
+                440
+            ],
+            "log_loss": 0.2919632238418298
+        }
+    ]
+}
